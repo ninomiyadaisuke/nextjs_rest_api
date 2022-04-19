@@ -26,7 +26,7 @@ from dj_database_url import parse as dburl
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nextjs-rest-api-lesson.herokuapp.com']
 
 
 # Application definition
